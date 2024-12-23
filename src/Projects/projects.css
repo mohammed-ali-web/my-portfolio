@@ -1,0 +1,14 @@
+.projects .projects-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+.projects .projects-group .project {
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 #4123c6;
+    transition: 0.2s ease-in-out;
+}
+.projects .projects-group .project:hover {
+    box-shadow: 0 0 0 #4123c6;
+}

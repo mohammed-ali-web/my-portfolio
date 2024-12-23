@@ -1,0 +1,8 @@
+.nav-list .list-item .hire-me {
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 5px 10px #4123c6aa;
+  margin-left: 20px;
+}
+.nav-list .list-item .hire-me:hover {
+  box-shadow: 0 0 20px #4123c6;
+}

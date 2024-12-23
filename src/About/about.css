@@ -1,0 +1,9 @@
+.about .about-content .contact-us-btn a {
+    transition: 0.2s ease-in-out;
+}
+.about .about-content .contact-us-btn a:hover {
+    background-color: #4123c6;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 15px #4123c6a6;;
+}

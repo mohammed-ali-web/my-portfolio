@@ -1,0 +1,17 @@
+.services .box-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+.services .box-group .service-box {
+  border-radius: 8px;
+  box-shadow: 5px 5px 0 #4123c6;
+  transition: 0.2s ease-in-out;
+  height: 100%;
+  border: solid 1px #4123c6;
+}
+.services .box-group .service-box:hover {
+  box-shadow: 10px 10px 0 #4123c6;
+  transform: translate(-5px, -5px);
+}

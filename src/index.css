@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importing (Cairo Font) Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+body {
+  background-color: #f7f7f7;
+  background-image: url("./Images/main-bg.jpg");
+  background-position: center;
+}
+.App {
+  max-width: 1200px;
+  margin: 60px auto;
+}

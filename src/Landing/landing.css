@@ -1,0 +1,30 @@
+.landing .badge .badge-title {
+    text-shadow: 0px 5px 15px #4928db8c;
+}
+.landing .hire-me .hire-me-btn {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 5px 10px #4123c6aa;
+}
+.landing .hire-me .hire-me-btn:hover {
+    box-shadow: 0 0 20px #4123c6;
+}
+.landing .btn-group .cv a {
+    transition: 0.2s ease-in-out;
+}
+.landing .btn-group .cv a:hover {
+    background-color: #4123c6;
+    color: white;
+    font-weight: bold;
+}
+.landing .animation-bounce {
+    animation: bounce 4s linear infinite;
+}
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}

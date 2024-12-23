@@ -1,0 +1,17 @@
+.contact form {
+    box-shadow: 5px 5px 0 #4123c6;
+}
+.contact .contact-input {
+    border: 1px solid #4123c6;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 5px 5px 0 #4123c6;
+    margin-bottom: 15px;
+    transition: 0.2s ease-in-out;
+}
+.contact .contact-input:hover,
+.contact .contact-input:focus {
+    box-shadow: 0 0 0 #4123c6;
+}
