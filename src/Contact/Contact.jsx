@@ -9,7 +9,7 @@ export default function Contact() {
           Contact me
         </h1>
         <Tilt>
-          <form action="#" className="contact-form w-[650px] flex flex-col mx-auto border-solid border-[#4123c6] border-[1px] p-[30px] rounded-[8px] shadow-md">
+          <form action="#" className="contact-form max-w-[650px] flex flex-col mx-auto border-solid border-[#4123c6] border-[1px] p-[30px] rounded-[8px] shadow-md">
             <span className="email-me text-[30px] font-bold text-slate-700 mb-[12px]">Email me 🚀</span>
             <input type="email" name="email" placeholder="Your Email" className="contact-input text-slate-700" />
             <input type="text" name="name" placeholder="Your Name" className="contact-input text-slate-700" />

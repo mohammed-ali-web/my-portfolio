@@ -1,29 +1,36 @@
 import "./navbar.css";
 import Logo from "../Images/logo.jpg";
+import { CgMenuRight } from "react-icons/cg";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [exchange, setExchange] = useState(false);
+
   return (
     <>
-      <nav className="navbar flex justify-between items-center w-full bg-white rounded-[12px] shadow-md px-8">
-        <img src={Logo} alt="Logo" className="h-[50px] my-4" />
-        <ul className="nav-list flex items-center">
+      <nav className="navbar relative flex justify-between items-center w-full bg-white rounded-[12px] shadow-md px-8">
+        <div className="exchanger flex justify-between items-center">
+          <img src={Logo} alt="Logo" className="h-[50px] my-4" />
+          <button className="exchange-btn hidden text-[28px]" onClick={() => setExchange(!exchange)}><CgMenuRight /></button>
+        </div>
+        <ul className={`nav-list flex items-center transition-all delay-[0.2s] ${exchange === true ? "h-fit-important" : "h-0-important"}`}>
           <li className="list-item">
-            <a href="#about" className="item-link px-6 py-3 text-slate-800 font-bold transition-all transition-[0.2s] hover:text-[#4123c6]">
+            <a href="#about" className="item-link px-6 py-3 text-slate-800 font-bold transition-all delay-[0.2s] hover:text-[#4123c6]">
               About
             </a> 
           </li>
           <li className="list-item">
-            <a href="#services" className="item-link px-6 py-3 text-slate-800 font-bold transition-all transition-[0.2s] hover:text-[#4123c6]">
+            <a href="#services" className="item-link px-6 py-3 text-slate-800 font-bold transition-all delay-[0.2s] hover:text-[#4123c6]">
               Services
             </a>
           </li>
           <li className="list-item">
-            <a href="#projects" className="item-link px-6 py-3 text-slate-800 font-bold transition-all transition-[0.2s] hover:text-[#4123c6]">
+            <a href="#projects" className="item-link px-6 py-3 text-slate-800 font-bold transition-all delay-[0.2s] hover:text-[#4123c6]">
               Projects
             </a>
           </li>
           <li className="list-item">
-            <a href="#contact" className="item-link px-6 py-3 text-slate-800 font-bold transition-all transition-[0.2s] hover:text-[#4123c6]">
+            <a href="#contact" className="item-link px-6 py-3 text-slate-800 font-bold transition-all delay-[0.2s] hover:text-[#4123c6]">
               Contact
             </a>
           </li>

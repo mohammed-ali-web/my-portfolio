@@ -9,18 +9,18 @@ export default function Footer() {
     <>
       <div className="footer w-full my-4 p-8 bg-white shadow-md rounded-[12px] flex flex-col justify-center items-center">
         <h2 className="text-[24px] font-bold text-slate-700 mb-2">Mohammed Adel</h2>
-        <ul className="footer-list flex items-center mb-4">
+        <ul className="footer-list flex flex-wrap items-center justify-center mb-4">
           <li className="list-item px-4 py-2 text-[18px] font-bold text-slate-600">
-            <a href="#" className="item-link px-4 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">About</a>
+            <a href="#" className="item-link px-2 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">About</a>
           </li>
           <li className="list-item">
-            <a href="#" className="item-link px-4 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">Services</a>
+            <a href="#" className="item-link px-2 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">Services</a>
           </li>
           <li className="list-item">
-            <a href="#" className="item-link px-4 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">Projects</a>
+            <a href="#" className="item-link px-2 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">Projects</a>
           </li>
           <li className="list-item">
-            <a href="#" className="item-link px-4 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">Contact</a>
+            <a href="#" className="item-link px-2 py-2 text-[18px] font-bold text-slate-600 transition-all transition-[0.2s] hover:text-[#4123c6]">Contact</a>
           </li>
         </ul>
         <div className="social-links flex items-center mb-4">
@@ -49,7 +49,7 @@ export default function Footer() {
             <GrInstagram />
           </a>
         </div>
-        <div className="copyrights font-bold text-slate-500">&copy; 2024 Mohammed Adel. All rights reserved.</div>
+        <div className="copyrights font-bold text-slate-500 text-[14px]">&copy; 2024 Mohammed Adel. All rights reserved.</div>
       </div>
     </>
   );

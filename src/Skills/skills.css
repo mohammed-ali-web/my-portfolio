@@ -1,0 +1,8 @@
+@media (max-width: 550px) {
+    .skills {
+        padding: 2rem 1rem;
+    }
+    .skills .row {
+        padding: 40px 12px;
+    }
+}

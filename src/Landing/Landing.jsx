@@ -4,7 +4,6 @@ import { ImLinkedin } from "react-icons/im";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
-import { CgMenuRight } from "react-icons/cg";
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
 

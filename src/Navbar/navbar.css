@@ -1,8 +1,41 @@
 .nav-list .list-item .hire-me {
   transition: 0.2s ease-in-out;
-  box-shadow: 0 5px 10px #4123c6aa;
+  box-shadow: 0 5px 10px #756d98aa;
   margin-left: 20px;
 }
 .nav-list .list-item .hire-me:hover {
   box-shadow: 0 0 20px #4123c6;
+}
+@media (max-width: 736px) {
+  .navbar,
+  .navbar ul {
+    flex-direction: column;
+  }
+  .h-fit-important {
+    height: fit-content !important;
+  }
+  .h-0-important {
+    height: 0 !important;
+  }
+  .navbar .exchanger {
+    width: 100%;
+  }
+  .navbar .exchanger .exchange-btn {
+    display: block;
+  }
+  .navbar {
+    overflow: hidden;
+  }
+  .navbar ul li {
+    padding: 15px 0;
+  }
+  .navbar ul li:last-child {
+    margin-bottom: 20px;
+  }
+  .navbar .hire-me {
+    margin-left: 0 !important;
+  }
+  .navbar ul {
+    height: 0;
+  }
 }

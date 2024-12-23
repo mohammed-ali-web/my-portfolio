@@ -1,7 +1,7 @@
 .projects .projects-group {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 20px;
 }
 .projects .projects-group .project {
     padding: 25px;
@@ -11,4 +11,9 @@
 }
 .projects .projects-group .project:hover {
     box-shadow: 0 0 0 #4123c6;
+}
+@media (max-width: 550px) {
+    .projects {
+        padding: 2rem 1rem;
+    }
 }

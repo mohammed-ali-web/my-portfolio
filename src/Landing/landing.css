@@ -28,3 +28,38 @@
         transform: translateY(-30px);
     }
 }
+@media (max-width: 1056px) {
+    .landing {
+        flex-direction: column-reverse;
+    }
+    .landing img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .landing .landing-text {
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .landing img {
+        height: 250px;
+    }
+    .landing {
+        padding: 2rem 0.5rem !important;
+    }
+    .landing .landing-text .title {
+        font-size: 28px;
+    } 
+    .landing .landing-text .badge {
+        font-size: 24px;
+    }
+    .landing .btn-group {
+        margin-bottom: 20px;
+    }
+    .landing .btn-group button a {
+        padding: 0.75rem 18px;
+    }
+    .landing .btn-group button:first-child a {
+        margin-right: 30px;
+    }
+}
