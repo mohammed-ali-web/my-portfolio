@@ -64,7 +64,7 @@ export default function Services() {
 
   return (
     <>
-      <div className="services w-full my-4 p-8 bg-white shadow-md rounded-[12px]">
+      <div className="services w-full my-4 p-8 bg-white shadow-md rounded-[12px]" id="services">
         <h1 className="main-title text-center font-bold text-slate-700 text-[35px]">
           Services
         </h1>

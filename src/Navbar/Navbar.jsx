@@ -35,7 +35,7 @@ export default function Navbar() {
             </a>
           </li>
           <li className="list-item">
-            <a href="#download" className="item-link hire-me bg-[#4123c6] text-white px-[20px] py-2 rounded-[6px] shadow-[#de290a]">
+            <a href="#contact" className="item-link hire-me bg-[#4123c6] text-white px-[20px] py-2 rounded-[6px] shadow-[#de290a]">
               Hire me
             </a>
           </li>

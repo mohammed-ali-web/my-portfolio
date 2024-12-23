@@ -47,9 +47,6 @@
     .landing {
         padding: 2rem 0.5rem !important;
     }
-    .landing .landing-text {
-        padding: 0 1rem;
-    }
     .landing .landing-text .title {
         font-size: 28px;
     } 
@@ -63,6 +60,6 @@
         padding: 0.75rem 18px;
     }
     .landing .btn-group button:first-child a {
-        margin-right: 20px;
+        margin-right: 30px;
     }
 }

@@ -35,25 +35,25 @@ export default function landing() {
           </h3>
           <div className="social-links flex items-center">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/mohammed-adel-web/"
               className="link mr-3 w-[35px] h-[35px] rounded-[50%] border-solid border-[2px] border-[#4123c6] text-[#4123c6] flex justify-center items-center transition-all transition-[0.2s] hover:bg-[#4123c6] hover:text-white"
             >
               <ImLinkedin />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/mohammed.adel711/"
               className="link mr-3 w-[35px] h-[35px] rounded-[50%] border-solid border-[2px] border-[#4123c6] text-[#4123c6] flex justify-center items-center transition-all transition-[0.2s] hover:bg-[#4123c6] hover:text-white"
             >
               <FaFacebook />
             </a>
             <a
-              href="#"
+              href="https://x.com/mohamed_ali_web"
               className="link mr-3 w-[35px] h-[35px] rounded-[50%] border-solid border-[2px] border-[#4123c6] text-[#4123c6] flex justify-center items-center transition-all transition-[0.2s] hover:bg-[#4123c6] hover:text-white"
             >
               <BsTwitterX />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/mohammed_ali_web/"
               className="link mr-3 w-[35px] h-[35px] rounded-[50%] border-solid border-[2px] border-[#4123c6] text-[#4123c6] flex justify-center items-center transition-all transition-[0.2s] hover:bg-[#4123c6] hover:text-white"
             >
               <GrInstagram />
@@ -62,7 +62,7 @@ export default function landing() {
           <div className="btn-group pt-[60px]">
             <button className="hire-me">
               <a
-                href="#"
+                href="#contact"
                 className="hire-me-btn mr-[60px] py-3 px-8 bg-[#4123c6] text-white rounded-[6px] text-[18px] font-bold"
               >
                 Hire me

@@ -7,7 +7,7 @@ import { IoArrowRedo } from "react-icons/io5";
 export default function Projects() {
   return (
     <>
-      <div className="projects w-full my-4 p-8 bg-white shadow-md rounded-[12px]">
+      <div className="projects w-full my-4 p-8 bg-white shadow-md rounded-[12px]" id="projects">
         <h1 className="main-title text-center font-bold text-slate-700 text-[35px] mb-6">
           Projects
         </h1>
